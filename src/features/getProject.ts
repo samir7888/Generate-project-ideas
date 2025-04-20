@@ -16,4 +16,6 @@ export const fetchIdeas = async (techStack:string[]) => {
     const responseText = data?.candidates?.[0]?.content?.parts?.[0]?.text;
     return responseText;
   };
+
+//don't misuse the my gemini key please🥹
   
